@@ -1,7 +1,6 @@
 import { ServerRespond } from './DataStreamer';
 
 export interface Row {
-    [key:string]: string|any;
     price_abc: number,
     price_def: number,
     ratio: number,
